@@ -13,7 +13,7 @@ Several cmake variables should be configured in `CMakeLists.txt`:
 - `METALL_ROOT`
 - `METALL_INCLUDE`
 
-An example to build HavoqGT with Spack is:
+
 ```bash
 cd havoqgt
 mkdir build_dir
@@ -26,6 +26,7 @@ cmake ../ \
 make
 make test # option
 make install # option
+```
 
 Use `CMAKE_CXX_COMPILER=/path/to/g++` and `MPI_CXX_COMPILER=/path/to/mpic++` CMake options to specify a C++ compiler and a MPI compiler, respectively.
 To change the install directory, one can use `CMAKE_INSTALL_PREFIX` CMake option.
